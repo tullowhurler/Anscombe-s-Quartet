@@ -1,1 +1,23 @@
+https://en.wikipedia.org/wiki/Anscombe%27s_quartet 
+“numerical calculations are exact, but graphs are rough.”
 
+https://eagereyes.org/criticism/anscombes-quartet 
+He then presents a table of numbers. 
+
+It contains four distinct datasets (hence the name Anscombe’s Quartet), each with statistical properties that are essentially identical: 
+the mean of the x values is 9.0, mean of y values is 7.5, they all have nearly identical variances, correlations, 
+and regression lines (to at least two decimal places).
+
+Data visualization is crucial in developing a sensible statistical model. 
+"A computer should make both calculations and graphs. Both sorts of output should be studied; each will contribute to understanding."
+
+https://www.quora.com/What-is-the-significance-of-Anscombes-quartet
+first- and second-order summary statistics don't say everything you might want to know about your data, so remember to plot it.
+
+The bottom two panels show that these summary statistics are sensitive to outliers. 
+A generalization of the bottom right panel arises often in real life: you might have, say, two noisy clouds corresponding to two groups. 
+You observe a correlation induced by the grouping, but after controlling for the group, the correlation disappears.
+
+The top right panel shows that, even though we are taught that correlation measures a linear association between two variables, we can have high correlations (0.816 in this case) even when the relationship is nonlinear. 
+
+https://heapanalytics.com/blog/data-stories/anscombes-quartet-and-why-summary-statistics-dont-tell-the-whole-story
